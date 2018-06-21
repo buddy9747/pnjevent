@@ -1,0 +1,758 @@
+{% extends 'index/master.html'%}
+{% load static %}
+{% block title %}Pnj Events{% endblock %}
+
+
+{% block body %}
+    <!-- Header Area wrapper Starts -->
+
+
+    <!-- Main Slider Section Start -->
+    <div id="carousel-area">
+      <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="static/img/slider/bg-1.jpg" alt="">
+            <div class="carousel-caption">
+              <h2 class="wow fadeInRight" data-wow-delay="300ms">CSR-Workshop Event<br> Join us & Book Your Tickets Now!</h2>
+              <div class="buttons wow fadeInDown" data-wow-delay="0.2s"><a class="btn btn-lg btn-border" href="reg.html">Registration</a></div>
+              <a data-scroll href="#featured">
+              <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
+                <span></span>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slider/bg-2.jpg" alt="">
+            <div class="carousel-caption">
+              <h2 class="wow fadeInUp" data-wow-delay="300ms">Merger & Acquisition<br> Provide Conceptual and Practical Insights</h2>
+              <div class="buttons">
+              <a class="btn btn-lg btn-common wow fadeInLeft" data-wow-delay="300ms" href="#">Buy Tickets</a>
+              <a class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="300ms" href="#">Know More</a>
+              </div>
+              <a data-scroll href="#featured">
+              <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
+                <span></span>
+              </div>
+              </a>
+            </div>
+          </div>
+            <div class="item">
+            <img src="img/slider/bg-3.jpg" alt="">
+            <div class="carousel-caption">
+              <h2 class="wow fadeInDown" data-wow-delay="300ms">Mediation Workshop<br>  Helpful, Informative and Inspiring</h2>
+              <div class="buttons">
+              <a class="btn btn-lg btn-common wow fadeInLeft" data-wow-delay="300ms" href="#">Buy Tickets</a>
+              <a class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="300ms" href="#">Know More</a>
+              </div>
+              <a data-scroll href="#featured">
+              <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
+                <span></span>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slider/bg-4.jpeg" alt="">
+            <div class="carousel-caption">
+              <h2 class="wow fadeInDown" data-wow-delay="300ms">Startup Event <br>Passion, Ideas, Prototype, Funding, Take off!</h2>
+               <div class="buttons">
+              <a class="btn btn-lg btn-common wow fadeInLeft" data-wow-delay="300ms" href="#">Buy Tickets</a>
+              <a class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="300ms" href="#">Know More</a>
+              </div>
+              <a data-scroll href="#featured">
+              <div class="rev-scroll-btn wow fadeInUp" data-wow-delay="600ms">
+                <span></span>
+              </div>
+              </a>
+            </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-slider" role="button" data-slide="prev">
+          <span class="icon-arrow-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-slider" role="button" data-slide="next">
+          <span class="icon-arrow-right" aria-hidden="true"></span>
+        </a>
+      </div>
+      </div>
+
+
+     <!-- <section class="countdown-timer section">
+<div class="container">
+<div class="row">
+    <a name="schedule">
+    <div id="schedule">
+<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="text">
+<h2>CSR <br>Workshop</h2>
+<h4>Indian Habitat Centre, New Delhi, India <br> July 21, 2018 - July 22, 2018 </h4>
+<a href="#tickets" class="btn btn-lg btn-common">Buy Tickets</a>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="time-countdown">
+<div id="clock" class="time-count"><div class="time-entry days"><span>60</span> Days</div> <div class="time-entry hours"><span>10</span> Hours</div> <div class="time-entry minutes"><span>53</span> Minutes</div> <div class="time-entry seconds"><span>20</span> Seconds</div> </div>
+</div>
+</div>
+        </div></a>
+    </div>
+</div>
+</section> -->
+
+
+
+      <section id="event" class="section">
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+    <h2 class="section-title wow fadeInUp animated" data-wow-delay="0s" style="visibility: visible;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Schedule <br></h2>
+    </div><br>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="tab-block wow fadeInDown animated" data-wow-delay="0s" style="visibility: visible;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">
+<div class="icon">
+<i class="icon-location-pin"></i>
+</div>
+<div class="desc">
+<h6>Location</h6>
+    <h5>Shedule & Venue subject to change</h5>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="tab-block wow fadeInDown animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="icon">
+<i class="icon-calendar"></i>
+</div>
+<div class="desc">
+<h6>Date &amp; Time</h6>
+<h5>10:00AM - 6:00PM, 25 August</h5>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="tab-block wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
+<div class="icon">
+<i class="icon-microphone"></i>
+</div>
+<div class="desc">
+<h6>Speakers</h6>
+<h5>10 Tech Icons and Professionals</h5>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="tab-block last-block wow fadeInDown animated" data-wow-delay="0.6s" style="visibility: visible;-webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+<div class="icon">
+<i class="icon-wallet"></i>
+</div>
+<div class="desc left">
+<h6>Tickets</h6>
+<h5>250 People</h5>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="content-text">
+<h3 class="wow fadeInUp animated" data-wow-delay="0.8s" style="visibility: visible;-webkit-animation-delay: 0.8s; -moz-animation-delay: 0.8s; animation-delay: 0.8s;">Get fresh insights into the world of tech and startups</h3>
+<p class="wow fadeInUp animated" data-wow-delay="1s" style="visibility: visible;-webkit-animation-delay: 1s; -moz-animation-delay: 1s; animation-delay: 1s;"> Registration starts at 9:00 am</p>
+<p>Introduction - PNJ Group 10:00AM - 10:30AM</p>
+<p>Startup Pitches & Presentation 10:30AM - 12:00AM</p>
+<p>Strategic tie up Pitches & presentation  12:00AM - 1:30PM</p>
+<p>Networking  1:330PM - 2:30PM</p>
+<p>CSR Pitches 2:30PM - 4:00PM</p>
+<p>High Tea 5:00 - 6:00</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<section id="featured" class="section">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2 class="section-title wow fadeInUp animated" data-wow-delay="0s" style="visibility: visible;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Join Us</h2>
+<p class="section-subcontent wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+<div class="col-md-4 col-sm-6">
+<div class="featured-box wow fadeInLeft animated" data-wow-delay="0.1s" style="visibility: visible;-webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+<div class="icon">
+<i class="icon-energy"></i>
+</div>
+<div class="featured-content">
+<h4>Get Inspired</h4>
+<p>m ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+    <btn class="" placeholder="Read More"></btn>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="featured-box wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="icon">
+<i class="icon-people"></i>
+</div>
+<div class="featured-content">
+<h4>Meet New Faces</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="featured-box wow fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="icon">
+<i class="icon-graph"></i>
+</div>
+<div class="featured-content">
+<h4>Fresh Tech Insights</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+    <!--  <section id="gallery" class="section">
+    <a name="gallery">
+    <div id="gallery">
+<div class="container">
+<div class="col-md-12">
+<h2 class="section-title wow fadeInUp" data-wow-delay="0s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Our Gallery</h2>
+<p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+</div>
+<div class="gallery-wrap wow fadeInDown" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;">
+<div class="col-md-4 col-sm-4 col-xs-12 gellery-pn">
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img-2.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="assets/img/gallery/img-3.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img-4.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="assets/img/gallery/img-5.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img-5.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="assets/img/gallery/img-6.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 gellery-pn">
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img-7.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="./Impression _ Bootstrap HTML5 Conference and Event Template_files/img-4.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img-5.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="assets/img/gallery/img1.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 gellery-pn">
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img2.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="assets/img/gallery/img3.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+<div class="gallery-item">
+<a href="http://demo.graygrids.com/themes/impression/#"><img src="assets/img/gallery/img-3.jpg" alt=""></a>
+<div class="overlay">
+<div class="icons">
+<a class="preview lightbox" href="assets/img/gallery/img-5.jpg"><i class="icon-eye"></i></a>
+<a class="link" href="http://demo.graygrids.com/themes/impression/gallery.html"><i class="icon-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        </div></a>
+</section> -->
+
+
+
+    <!-- Main Slider Section End -->
+
+        <!-- Call to action Section
+        <section id="event" class="section">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+        <!-- Call to action Section End -->
+
+
+    <!-- Sponsors Section Start
+    <section id="sponsors" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Our Sponsors</h2>
+            <p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.1s">
+              <a href="#"><img src="assets/img/sponsors/logo-01.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.2s">
+              <a href="#"><img src="assets/img/sponsors/logo-02.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.3s">
+              <a href="#"><img src="assets/img/sponsors/logo-03.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
+              <a href="#"><img src="assets/img/sponsors/logo-04.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Sponsors Section End -->
+
+        <!-- Call to action Section -->
+     <!--   <section id="event" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="wow animated slideInRight" data-wow-delay=".4s"><a href="https://graygrids.com/item/impression-bootstrap-html5-event-conference-template"></a></h2>
+                        <a href="https://graygrids.com/item/impression-bootstrap-html5-event-conference-template" class="wow animated fadeInUp btn btn-common mt-50" data-wow-delay=".6s"><i class="fa fa-shopping-cart"></i><div class="ripple-container"></div></a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Call to action Section End -->
+
+
+   <!--   <section id="speakers" class="section">
+    <a name="speaker">
+    <div id="speaker">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2 class="section-title wow fadeInUp" data-wow-delay="0s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Meet Our Speakers</h2>
+<p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="speakers-member wow fadeIn" data-wow-delay="0.1s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+<div class="member-img">
+<img src="" alt="">
+</div>
+<div class="member-desc">
+<h3>Paras Mittal</h3>
+<h5>CEO, Professional Network Joint</h5>
+<p>I am Member of Institute of Company Secretaries of India and Member of Institute of Chartered Accountants of India and result oriented professional with 13 years of varied experience in the categories of Accounts, Finance, Taxation, Audits, Secretarial & Legal work.</p>
+<div class="social-icon">
+<a class="social" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-behance"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="speakers-member wow fadeIn" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="member-img">
+<img src="" alt="">
+</div>
+<div class="member-desc">
+<h3>ABC</h3>
+<h5>Co-founder, Hometeam</h5>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+<div class="social-icon">
+<a class="social" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-behance"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="speakers-member wow fadeIn" data-wow-delay="0.5s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+<div class="member-img">
+<img src="" alt="">
+</div>
+<div class="member-desc">
+<h3>XYZ</h3>
+<h5>Director, Via</h5>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+<div class="social-icon">
+<a class="social" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+<a class="social" href="h#" target="_blank"><i class="fa fa-linkedin"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
+<a class="social" href="#" target="_blank"><i class="fa fa-behance"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </a>
+
+</section> -->
+
+
+  <!--  <section id="blog" class="section">
+    <a name="blog">
+    <div id="blog">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2 class="section-title wow fadeInUp" data-wow-delay="0s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Blog</h2>
+<p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="blog-item wow fadeInRight" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="blog-image">
+<a href="#">
+<img src="./Impression _ Bootstrap HTML5 Conference and Event Template_files/img1.jpg" alt="">
+</a>
+</div>
+<div class="blog-info">
+<h3><a href="">We make beautiful days with older adults</a></h3>
+<div class="meta">
+<span class="meta-part"><a href="#"><i class="icon-eye"></i> 2500</a></span>
+<span class="meta-part"><a href=""><i class="icon-bubble"></i> 100</a></span>
+ <span class="meta-part"><a href="#"><i class="icon-calendar"></i> 21 Mar, 2016</a></span>
+</div>
+<p>Lorem ipsum dolor sit amet cons tetuer adipiscing elit. dolor sit...</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="blog-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="blog-image">
+<a href="http://demo.graygrids.com/themes/impression/#">
+<img src="./Impression _ Bootstrap HTML5 Conference and Event Template_files/img2.jpg" alt="">
+</a>
+</div>
+<div class="blog-info">
+<h3><a href="">Change-makers economic</a></h3>
+<div class="meta">
+<span class="meta-part"><a href="h#"><i class="icon-eye"></i> 2500</a></span>
+<span class="meta-part"><a href="#"><i class="icon-bubble"></i> 100</a></span>
+<span class="meta-part"><a href="#"><i class="icon-calendar"></i> 21 Mar, 2016</a></span>
+</div>
+<p>Lorem ipsum dolor sit amet cons tetuer adipiscing elit. dolor sit...</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="blog-item wow fadeInLeft" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+<div class="blog-image">
+<a href="http://demo.graygrids.com/themes/impression/#">
+<img src="./Impression _ Bootstrap HTML5 Conference and Event Template_files/img3.jpg" alt="">
+</a>
+</div>
+<div class="blog-info">
+<h3><a href="">It’s no secret that virtual reality</a></h3>
+<div class="meta">
+<span class="meta-part"><a href="#"><i class="icon-eye"></i> 2500</a></span>
+<span class="meta-part"><a href="#"><i class="icon-bubble"></i> 100</a></span>
+<span class="meta-part"><a href="#"><i class="icon-calendar"></i> 21 Mar, 2016</a></span>
+</div>
+<p>Lorem ipsum dolor sit amet cons tetuer adipiscing elit. dolor sit...</p>
+</div>
+</div>
+</div>
+</div>.
+
+
+</div>
+        </div></a>
+</section> -->
+
+
+<section id="pricing" class="section">
+    <a name="tickets">
+    <div id="tickets">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2 class="section-title wow fadeInUp" data-wow-delay="0s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Take a look at Our Pricing</h2>
+<p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="pricing-table wow fadeInLeft" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="table-icon">
+<i class="icon-user"></i>
+</div>
+<h3>BASIC</h3>
+<ul class="plan-info">
+<li><i class="icon-check"></i> Access to Booth</li>
+<li><i class="icon-minus"></i> Conference Tickets</li>
+<li><i class="icon-minus"></i> Printed Materials</li>
+</ul>
+<div class="price">
+<h4>₹499.00</h4>
+</div>
+<div class="button-area">
+<a href="#" class="btn btn-common">Buy Now</a>
+</div>
+</div>
+</div>`
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="pricing-table pricing-active wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="table-icon">
+<i class="icon-plane"></i>
+</div>
+<h3>STANDARD</h3>
+<ul class="plan-info">
+<li><i class="icon-check"></i> Access to Booth</li>
+<li><i class="icon-check"></i> Conference Tickets</li>
+ <li><i class="icon-minus"></i> Printed Materials</li>
+</ul>
+<div class="price">
+<h4>₹14999.00</h4>
+</div>
+<div class="button-area">
+<a href="#" class="btn btn-common">Buy Now</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="pricing-table wow fadeInRight" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="table-icon">
+<i class="icon-lock"></i>
+</div>
+<h3>PREMIUM</h3>
+<ul class="plan-info">
+<li><i class="icon-check"></i> Access to Booth</li>
+<li><i class="icon-check"></i> Conference Tickets</li>
+<li><i class="icon-check"></i> Printed Materials</li>
+</ul>
+<div class="price">
+<h4>₹1499.00</h4>
+</div>
+<div class="button-area">
+<a href="#" class="btn btn-common">Buy Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+        </div></a>
+</section>
+
+
+<section id="map">
+    <a name="contact">
+    <div id="contact">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<h2 class="section-title wow fadeInUp" data-wow-delay="0s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0s; -moz-animation-delay: 0s; animation-delay: 0s;">Get In Touch</h2>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.956578157831!2d77.21001047119977!3d28.591597515558377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2ed9be678c1%3A0x73a4fc8f2e1087a6!2sIndia+Habitat+Centre!5e0!3m2!1sen!2sin!4v1527157169327" width="1500" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+        </div></div></a>
+</section>
+
+
+<div class="main-content">
+
+<section id="contact">
+<div class="container">
+<div class="row wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="col-md-8 col-sm-7 contact-form">
+<form role="form" id="contactForm" data-toggle="validator" novalidate="true">
+<div class="title-header">
+<h3 class="title-medium pull-left">Send us a message</h3>
+<div class="icon pull-right"><i class="icon-envelope"></i></div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="label-line">
+<span class="span"></span>
+<label class="label transition">Name</label>
+<input type="text" class="input" id="name" required="" data-error="Please enter your name">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="label-line">
+<span class="span"></span>
+<label class="label transition">Email</label>
+<input type="email" class="input" id="email" required="" data-error="Please enter your email">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="label-line textarea">
+<span class="span"></span>
+<label class="label transition">Message</label>
+<textarea id="message" class="input" required="" data-error="Write your message"></textarea>
+<div class="help-block with-errors"></div>
+</div>
+<button type="submit" id="form-submit" class="btn btn-common disabled" style="pointer-events: all; cursor: pointer;">Send <i class="icon-paper-plane" aria-hidden="true"></i></button>
+<div id="msgSubmit" class="h3 text-center hidden"></div>
+<div class="clearfix"></div>
+</div>
+</div>
+</form>
+</div>
+<div class="col-md-4 col-sm-5 information">
+<div class="title-header">
+<h3 class="title-medium">Contact Information</h3>
+</div>
+<div class="contact-datails">
+<div class="icon">
+<i class="fa fa-map-marker"></i>
+</div>
+<div class="info">
+<span class="detail">Indian Habitat Centre, New Delhi<br> India</span>
+</div>
+</div>
+<div class="contact-datails">
+<div class="icon">
+<i class="fa fa-phone"></i>
+</div>
+<div class="info">
+<span class="detail">+123456789000</span>
+</div>
+</div>
+<div class="contact-datails">
+<div class="icon">
+<i class="fa fa-envelope"></i>
+</div>
+<div class="info">
+<span class="detail">info@abcd.com</span>
+</div>
+</div>
+<div class="social text-center">
+<a class="social" href="http://demo.graygrids.com/themes/impression/#" target="_blank"><i class="fa fa-twitter"></i></a>
+<a class="social" href="http://demo.graygrids.com/themes/impression/#" target="_blank"><i class="fa fa-google-plus"></i></a>
+<a class="social" href="http://demo.graygrids.com/themes/impression/#" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+    <!-- Footer Section Start -->
+<footer class="section">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-3 col-xs-12">
+<h3><img src="" alt=""></h3>
+<p>
+If you think you have the passion,
+attitude and capability to join us,
+<br>The Next Big IT Company is waiting.
+</p>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<h3>Support</h3>
+<ul>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Support</a></li>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Docs</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<h3>Learn More</h3>
+<ul>
+<li><a href="http://demo.graygrids.com/themes/impression/#">How it Works</a></li>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Blog</a></li>
+<li><a href="login.html">Log In</a></li>
+<li><a href="reg.html">Sign Up</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<h3>Quick Link</h3>
+<ul>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Schedule</a></li>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Gallery</a></li>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Team</a></li>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Blog</a></li>
+<li><a href="http://demo.graygrids.com/themes/impression/#">Pricing</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+
+
+<section id="copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p class="copyright-text text-center">
+© All Rights Reserved.
+<a href="">
+</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+    <!-- Copytight End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    <i class="icon-arrow-up"></i>
+    </a>
+
+
+
+
+
+
+{% endblock %}
